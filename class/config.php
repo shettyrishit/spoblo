@@ -10,9 +10,9 @@ date_default_timezone_set('Asia/Kolkata');
 $datetime 	=date("Y-m-d H:i:m");
 $date       =date("Y-m-d");
 
-$host       = "free-mysql.cjrymtsenbnz.ap-southeast-1.rds.amazonaws.com";
-$user       = "spoblo_website";
-$pass       = "spoblo@websitE231";
+$host       = "";
+$user       = "";
+$pass       = "";
 $database   = "spoblo";
 $item_per_page=3;
 
