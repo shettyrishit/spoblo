@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c> 
+Options +FollowSymLinks
+RewriteEngine on
+
+#RewriteRule academy_videos/(.*)?$ spoblo_uploded_files/academy_videos/$1 [L]
+#Redirect /academy_videos/ http://www.spoblo.com/spoblo_admin/ui-404.html
+
+
+</IfModule>

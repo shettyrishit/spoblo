@@ -1,0 +1,35 @@
+[28-Dec-2015 11:51:12 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ';' in /home/leo9admin/public_html/projects/salefiesta/sf_admin/menu.php on line 16
+[28-Dec-2015 11:51:15 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ';' in /home/leo9admin/public_html/projects/salefiesta/sf_admin/menu.php on line 16
+[20-Jan-2016 07:47:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/leo9admin/public_html/projects/salefiesta/sf_admin/menu.php on line 60
+[20-Jan-2016 07:47:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/leo9admin/public_html/projects/salefiesta/sf_admin/menu.php on line 60
+[12-Apr-2016 10:32:08 UTC] PHP Fatal error:  Class 'sf_common_master' not found in /home/leo9admin/public_html/projects/salefiesta/sf_admin/sf_contact.php on line 5
+[12-Apr-2016 10:44:03 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 10:44:04 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 10:44:04 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 10:44:04 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 10:44:05 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 10:44:07 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 10:44:08 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 10:44:09 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 10:44:15 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 10:44:50 UTC] PHP Fatal error:  Call to a member function get_statistics_data() on a non-object in /home/leo9admin/public_html/projects/salefiesta/sf_admin/admin.php on line 8
+[12-Apr-2016 11:14:08 UTC] PHP Fatal error:  Class 'sf_common_master' not found in /home/leo9admin/public_html/projects/salefiesta/sf_admin/sf_users.php on line 4
+[12-Apr-2016 11:14:09 UTC] PHP Fatal error:  Class 'sf_common_master' not found in /home/leo9admin/public_html/projects/salefiesta/sf_admin/sf_users.php on line 4
+[12-Apr-2016 11:14:11 UTC] PHP Fatal error:  Class 'sf_common_master' not found in /home/leo9admin/public_html/projects/salefiesta/sf_admin/sf_users.php on line 4
+[04-May-2016 11:28:54 UTC] PHP Warning:  include_once(../class/sf_common_master.php): failed to open stream: No such file or directory in /home/leo9admin/public_html/projects/spoblo/spoblo_admin/sf_contact.php on line 3
+[04-May-2016 11:28:54 UTC] PHP Warning:  include_once(): Failed opening '../class/sf_common_master.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/leo9admin/public_html/projects/spoblo/spoblo_admin/sf_contact.php on line 3
+[04-May-2016 11:28:54 UTC] PHP Fatal error:  Class 'sf_common_master' not found in /home/leo9admin/public_html/projects/spoblo/spoblo_admin/sf_contact.php on line 4
+[04-May-2016 12:30:03 UTC] PHP Warning:  include_once(../class/sf_common_master.php): failed to open stream: No such file or directory in /home/leo9admin/public_html/projects/spoblo/spoblo_admin/sf_contact.php on line 3
+[04-May-2016 12:30:03 UTC] PHP Warning:  include_once(): Failed opening '../class/sf_common_master.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/leo9admin/public_html/projects/spoblo/spoblo_admin/sf_contact.php on line 3
+[04-May-2016 12:30:03 UTC] PHP Fatal error:  Class 'sf_common_master' not found in /home/leo9admin/public_html/projects/spoblo/spoblo_admin/sf_contact.php on line 4
+[23-May-2016 08:35:36 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leo9admin/public_html/projects/spoblo/class/config.php on line 18
+[23-May-2016 08:37:32 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leo9admin/public_html/projects/spoblo/class/config.php on line 18
+[23-May-2016 08:37:32 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leo9admin/public_html/projects/spoblo/class/config.php on line 18
+[23-May-2016 08:37:32 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leo9admin/public_html/projects/spoblo/class/config.php on line 18
+[23-May-2016 08:37:32 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/leo9admin/public_html/projects/spoblo/class/spoblo_academy_master.php on line 105
+[23-May-2016 08:37:35 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leo9admin/public_html/projects/spoblo/class/config.php on line 18
+[23-May-2016 08:37:37 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leo9admin/public_html/projects/spoblo/class/config.php on line 18
+[23-May-2016 08:37:37 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leo9admin/public_html/projects/spoblo/class/config.php on line 18
+[23-May-2016 08:37:37 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leo9admin/public_html/projects/spoblo/class/config.php on line 18
+[23-May-2016 08:37:37 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/leo9admin/public_html/projects/spoblo/class/spoblo_academy_master.php on line 105
+[23-May-2016 08:37:38 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/leo9admin/public_html/projects/spoblo/class/config.php on line 18

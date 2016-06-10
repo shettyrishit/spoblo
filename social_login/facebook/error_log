@@ -1,0 +1,3 @@
+[23-May-2016 09:47:25 UTC] PHP Warning:  include_once(../../class/mail_master.php): failed to open stream: No such file or directory in /home/leo9admin/public_html/projects/spoblo/social_login/facebook/action.php on line 5
+[23-May-2016 09:47:25 UTC] PHP Warning:  include_once(): Failed opening '../../class/mail_master.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/leo9admin/public_html/projects/spoblo/social_login/facebook/action.php on line 5
+[23-May-2016 09:47:25 UTC] PHP Fatal error:  Class 'mail_master' not found in /home/leo9admin/public_html/projects/spoblo/social_login/facebook/action.php on line 9

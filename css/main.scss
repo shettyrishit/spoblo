@@ -1,0 +1,321 @@
+// Start
+
+@font-face {
+    font-family: 'AvenirLTStd-Black';
+    src: url('../fonts/AvenirLTStd-Black.eot');
+    src: url('../fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/AvenirLTStd-Black.woff') format('woff'),
+ 		     url('../fonts/AvenirLTStd-Black.otf')  format('opentype'),
+         url('../fonts/AvenirLTStd-Black.ttf') format('truetype'),
+         url('../fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@font-face {
+    font-family: 'AvenirLTStd-Book';
+    src: url('../fonts/AvenirLTStd-Book.eot');
+    src: url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/AvenirLTStd-Book.woff') format('woff'),
+ 		     url('../fonts/AvenirLTStd-Book.otf')  format('opentype'),
+         url('../fonts/AvenirLTStd-Book.ttf') format('truetype'),
+         url('../fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@font-face {
+    font-family: 'AvenirLTStd-Light';
+    src: url('../fonts/AvenirLTStd-Light.eot');
+    src: url('../fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/AvenirLTStd-Light.woff') format('woff'),
+ 		     url('../fonts/AvenirLTStd-Light.otf')  format('opentype'),
+         url('../fonts/AvenirLTStd-Light.ttf') format('truetype'),
+         url('../fonts/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@font-face {
+    font-family: 'AvenirLTStd-Medium';
+    src: url('../fonts/AvenirLTStd-Medium.eot');
+    src: url('../fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/AvenirLTStd-Medium.woff') format('woff'),
+ 		     url('../fonts/AvenirLTStd-Medium.otf')  format('opentype'),
+         url('../fonts/AvenirLTStd-Medium.ttf') format('truetype'),
+         url('../fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@font-face {
+    font-family: 'MerriweatherLight';
+    src: url('../fonts/MerriweatherLight.eot');
+    src: url('../fonts/MerriweatherLight.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/MerriweatherLight.woff') format('woff'),
+ 		     url('../fonts/MerriweatherLight.otf')  format('opentype'),
+         url('../fonts/MerriweatherLight.ttf') format('truetype'),
+         url('../fonts/MerriweatherLight.svg#MerriweatherLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: url('../fonts/Merriweather-Regular.eot');
+    src: url('../fonts/Merriweather-Regular.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Merriweather-Regular.woff') format('woff'),
+ 		     url('../fonts/Merriweather-Regular.otf')  format('opentype'),
+         url('../fonts/Merriweather-Regular.ttf') format('truetype'),
+         url('../fonts/Merriweather-Regular.svg#Merriweather-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+$abBlack: 'AvenirLTStd-Black';   
+$abBook: 'AvenirLTStd-Book';   
+$abLight: 'AvenirLTStd-Light';   
+$abMedium: 'AvenirLTStd-Medium';   
+$mwLight: 'MerriweatherLight';   
+$mwRegular: 'Merriweather-Regular';   
+$blueL: #00e0fc;   
+$blueD: #008b9e;   
+.anim{
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+}
+.trf{
+  transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+.trf1{
+  transform: translate(0,0);
+  -moz-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  -webkit-transform: translate(0,0);
+  -o-transform: translate(0,0);
+}
+ 
+.no-padding-left{ padding-left:0 !important; }
+.no-padding-right{ padding-right:0 !important; }
+.no-padding{ padding:0 !important; }
+ 
+body, html{ width: 100%; height: 100%; margin: 0; padding: 0;}
+*{ margin: 0; padding: 0;}
+body{ font-family: $abBook;  font-size: 16px; color: #999; line-height: 1.5; }
+h1,h2,h3,h4,h5{font-family: $abBlack;}
+p{font-family: $mwRegular; font-size: 16px;}
+a{  @extend .anim; text-decoration: none; outline: none;font-family: $mwRegular; &:focus{outline: none;}}
+a:hover{ text-decoration: none;}
+.btn1 {@extend .anim; color: #fff;background:$blueL; display: inline-block; font-family: $abBlack;}
+.btn1:hover {color: #fff;background:$blueD;}
+.btn2 {@extend .anim; color: #fff;background:$blueD;display: inline-block;font-family: $abBlack;}
+.btn2:hover {color: #fff;background:$blueL;} 
+.btn3 {@extend .anim; color: #fff;background:transparent;border: 1px solid #fff;text-align: center;display: inline-block;vertical-align: middle;font-family: $abBlack;}
+.btn3:hover {color: #fff;background:$blueL;border: 1px solid $blueL;}  
+.btn4 {@extend .anim; color: $blueL;background:transparent;border: 1px solid $blueL;text-align: center;display: inline-block;vertical-align: middle;}
+.btn4:hover {color: #fff;background:$blueL; }
+
+// Home
+header{ height: 80px; line-height: 80px;position: fixed;width: 100%;left: 0;top: 0; z-index: 99;@extend .anim;
+	.logo{display: inline-block;vertical-align: middle; }
+	.mainmenu{ display: inline-block; float: right;
+		ul{ padding: 0; list-style: none; margin: 0;
+			li{display: inline-block; vertical-align: middle;
+				a{color: #ccc;font-family: $abLight;font-size: 14px;display: block; padding: 0 15px; }
+			}
+			li.login{ margin-left: 10px;
+				a{height: 40px; line-height: 40px;color: $blueL;padding: 0 30px;
+					&:hover{color: #fff;}
+				 }
+			}
+		}
+	}
+}
+.mainContainer{background:#111;color: #fff;padding-top: 80px; min-height: 100%;letter-spacing: 1px;}
+.MainBnrContainer{padding: 0;}
+.banner{ height: 800px;position: relative;
+	.bannerCont{ position: absolute; top: 50%; max-width: 800px; left: 50%;@extend .trf; z-index: 9;
+		h2{margin-top: 0; font-size: 60px; }
+		p{font-size: 14px; }
+		a{ font-size: 14px; height: 50px; line-height: 50px; padding: 0 40px; text-transform: uppercase; margin-right: 20px;font-family: $abBlack; letter-spacing: 2px;}
+		a.watchDemo{font-size: 16px;color: $blueL; padding: 0;@extend .anim;
+		&:hover{color: $blueD;}
+		}
+	}
+	.bannerLayer{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.2;}
+} 
+.siteTitle{text-align: center;
+  h2{ font-size: 36px; text-transform: uppercase; color: #fff; letter-spacing: 4px; margin: 0; margin-bottom: 20px;}
+  p{color: #999999;width: 80%;margin: 0 auto; font-size: 16px;line-height: 30px; margin-bottom: 30px;}
+
+}
+
+// Academi 
+.sections{padding: 80px 0;} 
+.academi{background: #111111;padding: 50px 0; padding-bottom: 100px; 
+  .acadamyList{background: #1a1b1f; overflow: hidden; clear: both;margin-top: 30px;
+    .acadamyListImg{width: 45%;float: left;
+      img{width: 100%;opacity: 0;}
+    }
+    .acadamyListIInfo{ width: 55%; float: left;padding: 20px 30px;
+      h3{font-size: 18px;color: #fff;font-family: $abBook;margin-top: 10px;}
+      p{font-size: 12px;color: #999;}
+      a{color: #008b9e; font-size: 12px;display: inline-block;text-decoration: underline;font-family: $abMedium;}
+    }
+  }
+} 
+.getInTouch{padding: 100px 0;}
+.fluidVideoWrapper {position: relative; padding-bottom: 56.25%; height: 0; background-color: black; margin: 20px 0; }
+.fluidVideoWrapper object, .fluidVideoWrapper embed, .fluidVideoWrapper .jwplayer, .fluidVideoWrapper video{position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important; transform: none !important; -webkit-transform: none !important; box-shadow: 0 0 1em black; outline: none !important; }
+.videoContainer{width: 100%; }
+.whatWeDoBg{background: url("../img/howItWorks.jpg") center bottom no-repeat; background-size: cover;}
+.howItWorks{overflow-x:hidden;  }
+.howLeftBox{display: inline-block;vertical-align: middle;margin-left: 10%; width: 30%; transform: skew(-14deg,0deg);}
+.howRightBox{ display: inline-block; vertical-align: middle; width: 60%; padding-left: 100px; background: #008b9e; transform: skew(-14deg,0deg); position: relative; left: 120px;}
+.howLeft{ margin: 40px 0; transform: skew(14deg, 0deg);
+  .howImg{display: inline-block;vertical-align: middle; width: 80px; height: 80px; border: 1px solid #fff; border-radius: 50%; text-align: center; line-height: 80px;  margin-right: 20px; }
+  .howBox{display: inline-block;vertical-align: middle; width: calc(100% - 100px);
+    h2{font-size: 18px;font-family: $abBook; margin-top: 0;}
+    p{margin-bottom: 0; font-size: 12px;color: #999999; font-family: $mwLight; }
+  }
+}
+.howRight{ transform: skew(14deg, 0deg); padding: 150px 0; max-width: 400px;
+  h2{font-size: 18px;font-family: $abLight; margin-top: 0; }
+  p{margin-bottom: 0; font-size: 12px;color: #ccc; font-family: $mwLight; }
+  .howVideo {margin: 20px 0; display: inline-block; position: relative;cursor: pointer;
+    .howVideoPlay{position: absolute; top: 50%; left: 50%; margin-left: -15px; margin-top: -15px; }
+    &:before{ content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: #000; opacity: 0.4;@extend .anim;}
+    &:hover:before{opacity: 0.6;}
+  }
+}
+.topVideoBox{
+  img{max-width: 100%; }
+}
+video {width: 100%; }
+.popup-gallery{
+  a{width: 25%; float: left; padding: 5px; position: relative;
+    &:before{content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: #000; opacity: 0.4;@extend .anim; }
+    &:hover:before{opacity: 0.6;}
+    .howVideoPlay {position: absolute; top: 50%; left: 50%; margin-left: -15px; margin-top: -15px; }
+  }
+} 
+.getInTouch{padding: 100px 0;
+  .form-control{margin-top: 30px;}
+  input.form-control{background: transparent;border-radius: 0;box-shadow: none;color: #999999;border: 1px #fff solid;font-size: 18px;height: 50px;}
+  textarea.form-control{background: transparent;border-radius: 0;box-shadow: none;color: #999999;border: 1px #fff solid;font-size: 18px;height: 120px;resize:none;}
+  .btn2{width: 200px;height: 50px;border-radius: 0;font-size: 16px; margin: 30px auto; display: block;}
+}
+
+
+// Footer
+.siteFooter{background: #111; padding-top: 50px; 
+  .visibltyNo{visibility: hidden;}  
+  .smallFooter{background: #000; height: 50px;line-height: 50px;margin:0;text-align: center;font-family: $abBook;font-size: 14px; margin-top: 40px;}
+  h3{font-size: 18px;color: #fff;letter-spacing: 2px;margin-bottom: 15px;}
+  .cntInfo{list-style: none;
+    li{position: relative;padding-left: 25px;margin-bottom: 15px;
+      .iconAbout{position: absolute;left: 0;top: 0;}
+    }
+  }
+  .quikLink{
+    a{font-size: 12px;color: #9a9a9a;display: block;border-bottom: 1px #363636 solid;line-height: 40px;background: url('../img/qlink.png') no-repeat left center; padding-left: 15px;
+      &:last-child{border-bottom: 0px #363636 solid;}
+      &:hover{color: #008b9e;}
+    }
+  }
+  .socilLink{list-style: none;clear: both;overflow: hidden;
+    li{height: 40px;width: 40px;float: left;border:1px #fff solid;line-height: 40px;margin-right: 10px;text-align: center;border-radius: 50%;
+      a{color:#fff;font-size: 18px;}
+    }
+  }
+  .newLetter{clear: both;overflow: hidden;
+    .subInput{width: calc(100% - 80px);height: 40px;background: #252525;border-radius: 0;color: #747474;font-size: 14px;padding-left: 10px;border: 0;outline: none;float: left;}
+    .subBtn{border:0;width: 80px;height: 40px;font-size: 12px;float: left;}
+  }
+}
+
+
+/* LOGIN */
+.loginContainer {position: relative; background: url("../img/login-bg.jpg") 50% 50% no-repeat; background-size: cover; display: inline-block; width: 100%; vertical-align: middle; 
+  .loginForm{ width: 100%; max-width: 650px; background: rgba(39, 39, 39, 0.6); margin: 180px auto 150px; padding: 40px 50px; text-align: center;
+    h2{margin: 0px; margin-bottom: 15px;color: #fff;text-align: center;background: url('../img/loginBg.jpg') no-repeat center center;background-size: cover;font-size: 36px;text-transform: uppercase;}
+    p{font-size: 14px;color: #fefefe;letter-spacing: 1px;margin-bottom: 40px;}
+  .loginField{ border: 0; width: calc(100% - 50px); background: transparent; padding: 10px; border-bottom: 1px #cbcbcb solid; font-size: 16px; outline: none; margin-bottom: 40px;float: right;
+    &:focus{border-bottom: 1px #008b9e solid; }
+    }
+    .btn3{width: 200px;height: 50px;line-height: 50px;margin: 0 auto;display: block;text-transform: uppercase;letter-spacing: 2px;}
+  }  
+  .logReglog{margin-top: 20px;}
+  p.loginOr{font-size: 16px;text-align: center;margin: 20px; margin-bottom: 20px;position: relative;font-family: $abMedium;}
+  .loginForgot{ text-align: center; color: #00c1db; text-decoration: none; margin-top: 30px; display: block;font-family: $abMedium;}
+  .loginMainForm label{margin-top: 10px;float: left;}
+}
+
+.homeTestim {padding: 150px 0;}
+.topVideosBg{background: url("../img/topVideosBg.jpg") center bottom no-repeat; background-size: cover;} 
+.homeTest{
+  p{font-size: 24px;font-family: $mwLight;font-style: italic;color: #fff;line-height: 36px; }
+  hr{border-top: 1px solid #646362; width: 50%; margin: 20px auto; }
+  .personBox{ text-align: center;
+    .perImg{display: inline-block; vertical-align: middle; border-radius: 50%; overflow: hidden; }
+    .perInfo{ display: inline-block; vertical-align: middle; padding-left: 20px; text-align: left;
+      h2{font-size: 18px; margin-top: 0; margin-bottom: 10px; }
+      p{margin-bottom: 0; font-size: 14px; color: #00e0fc; font-style: inherit; line-height: initial; width: 100%; }
+    }
+  }
+}  
+.pressBox .acadamyList {background:#fff;}
+.pressBox .acadamyList .acadamyListIInfo h3 {color: #000;}
+.pressBox .acadamyList .acadamyListImg {width: 50%;}
+.pressBox .acadamyList .acadamyListIInfo {width: 50%;}
+.pressBox2 .acadamyListImg{position: relative;left: 50%}
+.pressBox2 .acadamyListIInfo{position: relative;left: -50%;
+  &:before { content: ''; background: url("../img/triangle.png") center center no-repeat; width: 10px; height: 17px; position: absolute; display: inline-block; right: -10px; top: 50%; margin-top: -8px;transform: rotate(180deg);-webkit-transform: rotate(180deg);-o-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);}
+}
+
+.pressBox1 .acadamyListIInfo{ position: relative;
+  &:before { content: ''; background: url("../img/triangle.png") center center no-repeat; width: 10px; height: 17px; position: absolute; display: inline-block; left: -10px; top: 50%; margin-top: -8px;}
+}
+.allPress {display: block; width: 200px; height: 50px; line-height: 50px; font-size: 20px; margin: 50px auto 0; }
+.fixHeader{background:#333; height: 60px; line-height: 60px;} 
+.fixHeader .mainmenu ul li.login a {height: 30px; line-height: 30px;}
+
+
+// academi-detail
+.academi-detail{background: #111;
+  .topVideos{
+    p{margin-bottom: 60px;}
+  }
+  .cocheImg{width: 100px;height: 100px;border-radius: 50%;float: left;margin-right: 20px;
+
+    img{width: 100%;}
+  }
+  .cochesInfo{ width: calc(100% - 120px);float: left;
+    a{color: #008b9e; font-size: 12px; display: inline-block; text-decoration: underline; font-family: "AvenirLTStd-Medium";
+    }
+    h3{font-size: 18px; color: #fff;}
+    h4{font-size: 14px; color: #fff;font-family: "AvenirLTStd-Medium";margin-bottom: 0;}
+  }
+  .acdCoaches .col-md-4{ margin-bottom: 50px;}
+}
+.owl-prev{position: absolute; top: 50%; left: -60px; font-size: 0; height: 80px; margin-top: -40px; /* margin-bottom: 88px; */ width: 40px; background: url("../img/gallery-arrow.png");}
+.owl-next{position: absolute; top: 50%; right: -60px; font-size: 0; height: 80px; margin-top: -40px; /* margin-bottom: 88px; */ width: 40px; background: url("../img/gallery-arrow.png"); background-position-x: 40px;}
+
+.acaHeader{ background: url("../img/acaHeaderBg.jpg") center center no-repeat; background-size: cover; text-align: center; padding: 140px 0 100px;
+  .acaImg{ display: inline-block; border-radius: 50%; overflow: hidden;
+    img{width: 100%; }
+  }
+  h2{font-family: $abBlack;font-size: 30px; }
+  p{ font-family: "MerriweatherLight"; font-size: 14px; width: 50%; display: inline-block; color: #ccc;}
+}
+
+
+
